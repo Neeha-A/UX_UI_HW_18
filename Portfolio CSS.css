@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+}
+
+.homebutton {
+    
+    width: 852px;
+    height: 80px;
+}
+
+.nav-bar nav {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    margin-top: 25px;
+  }
+
+  .navItem {
+    display: block;
+    background: #95B9C5;
+    padding: 10px 25px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: League Spartan; 
+    font-size: 20px;
+    border: 5px solid #000;
+    box-shadow: 6px 6px 0px 2px #000000;
+    transition: box-shadow ease-in-out 0.2s;
+  }
+  
+  .navItem:hover {
+    box-shadow: 10px 10px 0px 2px #000000;
+  }
+  
+  .navItem:focus, .navItem:active {
+    box-shadow: 2px 2px 0px 2px #000000;
+  }
+  
+  .navItemAbout {
+    background: #9EDC30;
+  }
+  
+  .navItemWork {
+    background: #FFB12F;
+  }
+  
+  .navItemContact {
+    background: #DC304F;
+  }
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 600px;
+}
+
+.skills {
+    grid-column: 1;
+    padding-left: 25px;
+}
+
+.image {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    display: inline-block;
+    position: relative;
+    justify-content: left;
+    margin-bottom: 40px;
+    color: #000;
+    font-family: Hepta Slab;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title2 {
+    display: inline-block;
+    position: relative;
+    justify-content: left;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    color: #000;
+font-family: League Spartan;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+}
+
+.me {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+}
+
+.bio {
+    display: inline-block;
+    position: relative;
+    color: #000;
+    padding-bottom: 25px;
+font-family: Hepta Slab;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 870px;
+}
+
+.daydreaming, .gaming, .story{
+    color: #000;
+font-family: League Spartan;
+font-size: 65px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.square {
+    height: 15px;
+    background-color: #000;
+}
+
+.square-purple {
+    position: relative;
+    justify-content: center;
+    height: 1800px;
+    background-color: #7365A2;
+}
+
+.work {
+    background-color: #7365A2;
+padding: 50px;
+}
+
+.workItems {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.title3 {
+    text-align: center;
+    color: #000;
+font-family: League Spartan;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.top-layer-BHPS {
+    position: relative;
+    height: 418px; 
+    background: #888C03; 
+    border-radius: 40px; 
+    border: 5px black solid;
+   
+}
+
+.laptopmockup {
+    height: 400px;
+    width: 500px;
+}
+
+.top-layer-move {
+    position: relative;
+    height: 418px; 
+    background: #5E4420; 
+    border-radius: 40px; 
+    border: 5px black solid;
+    
+}
+.movingupmockup{
+    height: 418px;
+    width: 574px;
+}
+
+.top-layer-travel {
+    position: relative;
+    height: 418px; 
+    background: #E9172B; 
+    border-radius: 40px; 
+    border: 5px black solid;
+ 
+}
+
+.JJmockup{
+    height: 418px;
+    width: 574px;
+}
+
+.bottompage {
+    align-items: center;
+}
+
+.top-layer-BHPS, .top-layer-travel, .top-layer-move {
+    box-shadow: 6px 6px 0 2px #000;
+}
+
+.texttitle {
+    padding: 10px 20px;
+    color: #000;
+    font-family: League Spartan; 
+    font-family: League Spartan; 
+    font-size: 70px;
+justify-content: left;
+align-items: center;
+text-decoration: none;
+}
+
+.textbox {
+    padding: 10px 25px;
+    color: #000;
+    font-family: League Spartan; 
+    font-family: Hepta Slab; 
+    font-size: 20px;
+    align-items: flex-end;
+    justify-content:left;
+    text-decoration: none;
+}
+
+.footertext {
+    color: #000;
+    font-family: League Spartan; 
+    font-size: 10px;
+text-align: center;
+}
+
+.bottomtext {
+    color: #000;
+    font-family: League Spartan; 
+    font-size: 10px;
+justify-content: center;
+align-items: center;
+}
+
+.heart{
+    width: 15px;
+    height: 15px;
+}
+
+.laptop{
+    width: 15px;
+    height: 15px;
+}
+
+.top-layer-BHPS {
+    display: grid;
+    grid-template-columns: 1fr 700px;
+}
+
+.top-layer-travel{
+    display: grid;
+    grid-template-columns: 1fr 700px;
+}
+
+.top-layer-move{
+    display: grid;
+    grid-template-columns: 1fr 700px;
+}
